@@ -3,6 +3,7 @@ require '../vendor/autoload.php';
 
 use App\Controller\GraphQLController;
 
+
 // Allowed origins
 $allowedOrigins = [
     'http://localhost:3000',

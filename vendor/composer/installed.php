@@ -3,7 +3,7 @@
         'name' => 'jakam/pdo-mysql',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c5bf05aadf3f580ae129cd3f8f593bc307a9b1ee',
+        'reference' => 'a9c3fa95c9166140cd9a683aaca1df9353156f4e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'jakam/pdo-mysql' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c5bf05aadf3f580ae129cd3f8f593bc307a9b1ee',
+            'reference' => 'a9c3fa95c9166140cd9a683aaca1df9353156f4e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

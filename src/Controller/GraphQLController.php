@@ -62,4 +62,6 @@ class GraphQLController
 
         echo Formatter::toJson($output, true);
     }
+
+
 }
