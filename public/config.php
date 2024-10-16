@@ -7,10 +7,15 @@ use Dotenv\Dotenv;
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->load();
 
-$host = $_ENV['DB_HOST'] ?? 'localhost';
-$db = $_ENV['DB_NAME'] ?? 'scandiwebdb';
-$user = $_ENV['DB_USER'] ?? 'root';
-$pass = $_ENV['DB_PASS'] ?? '';
+// $host = $_ENV['DB_HOST'] ?? 'localhost';
+// $db = $_ENV['DB_NAME'] ?? 'scandiwebdb';
+// $user = $_ENV['DB_USER'] ?? 'root';
+// $pass = $_ENV['DB_PASS'] ?? '';
+$host = $_ENV['DB_HOST'];
+$db = $_ENV['DB_DATABASE'];
+$user = $_ENV['DB_USERNAME'];
+$pass = $_ENV['DB_PASSWORD'];
+$port = $_ENV['DB_PORT'];
 
 return [
     'database' => [
