@@ -7,7 +7,7 @@ use App\Controller\GraphQLController;
 // Allowed origins
 $allowedOrigins = [
     'http://localhost:3000',
-    'https://scandiweb-react-fullstack.vercel.app'
+    'https://scandiweb-react-fullstack.vercel.app',
 ];
 
 if (isset($_SERVER['HTTP_ORIGIN'])) {
